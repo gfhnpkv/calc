@@ -1,0 +1,43 @@
+.but{
+    font-size: 200%;
+    padding: 5%;
+    width: 24.8%;
+    height: 25%;
+    background-color: gainsboro;
+
+}
+
+.calc{
+    width: 20%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    display: flex;
+    background-color: black;
+    
+}
+
+
+
+.med{
+    width: 50%;
+}
+
+.big{
+    width:75%;
+}
+
+.value{
+    background-color: black;
+    width: 20%;
+    height: 85px;
+    color: white;
+    font-size: 300%;
+    justify-content: end;
+    align-items: center;
+    display: flex;
+}
+
+.or{
+   background-color: hsl(30,69%,58%); 
+   color: white;
+}
