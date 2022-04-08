@@ -52,7 +52,7 @@ const butom = document.querySelector('.box').addEventListener('click', function(
                     
                     case '<-':
                         console.log('sup')
-                        answer=answer.slice(0,-1);
+                        answer=answer.toString().slice(0,-1);
                         break;
         
                     default:
